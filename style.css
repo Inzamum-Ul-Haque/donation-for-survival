@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+}
+
+.header-part {
+  height: 90vh;
+  background-image: url(./images/donation13.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 150px;
+}
+
+.header-part h1 {
+  padding-top: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 65px;
+  text-align: center;
+  color: white;
+}
+
+.header-part p {
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  display: flex;
+  margin: 30px auto;
+  font-size: 15px;
+  border: none;
+  background-color: tomato;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+.donate-today-part {
+  margin-bottom: 150px;
+}
+
+.donate-today-part h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.donate-today-part p {
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  text-align: center;
+  font-size: 15px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.boxes div {
+  height: 10%;
+  width: 8%;
+  margin: 0 5px;
+  border-radius: 5px;
+  padding: 30px 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #f2f3f5;
+}
+
+.boxes div h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: gray;
+}
+
+.boxes #second-box {
+  border: 3px solid tomato;
+  background-color: #f7a090;
+}
+
+.boxes #second-box h4 {
+  color: tomato;
+}
+
+.donate-today-part input {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  border: none;
+  border-bottom: 2px solid gray;
+  color: gray;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.donate-plan-part h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.donate-plan-part p {
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  text-align: center;
+  font-size: 15px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 10%;
+}
+
+.cards div {
+  height: 30%;
+  width: 30%;
+  margin: 0 10px;
+  border-radius: 5px;
+  padding: 50px 15px;
+  border: 2px solid black;
+}
+
+.cards img {
+  margin-bottom: 25px;
+}
+
+.cards h4 {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.cards p {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
