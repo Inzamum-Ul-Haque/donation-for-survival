@@ -9,6 +9,7 @@
   background-position: center center;
   background-size: cover;
   margin-bottom: 150px;
+  opacity: 0.8;
 }
 
 .header-part h1 {
@@ -31,7 +32,8 @@ button {
   cursor: pointer;
   display: flex;
   margin: 30px auto;
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: 600;
   border: none;
   background-color: tomato;
   padding: 15px;
@@ -88,7 +90,7 @@ button a {
 
 .boxes #second-box {
   border: 3px solid tomato;
-  background-color: #f7a090;
+  background-color: #ffeeee;
 }
 
 .boxes #second-box h4 {
@@ -105,6 +107,10 @@ button a {
   display: block;
   margin: 0 auto;
   width: 50%;
+}
+
+.donate-plan-part {
+  margin-bottom: 150px;
 }
 
 .donate-plan-part h3 {
@@ -134,7 +140,18 @@ button a {
   margin: 0 10px;
   border-radius: 5px;
   padding: 50px 20px;
-  border: 2px solid black;
+}
+
+.cards #first {
+  background-color: rgba(79, 157, 166, 0.2);
+}
+
+.cards #second {
+  background-color: rgba(255, 89, 89, 0.2);
+}
+
+.cards #third {
+  background-color: rgb(255, 244, 214);
 }
 
 .cards img {
@@ -150,4 +167,159 @@ button a {
 .cards p {
   text-align: left;
   font-family: "Poppins", sans-serif;
+}
+
+.extra-part {
+  display: flex;
+  margin-bottom: 150px;
+  padding: 0 15%;
+}
+
+.half {
+  margin: 15px;
+  width: 50%;
+}
+
+.extra-part .text {
+  margin-top: 100px;
+}
+
+.extra-part .text h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  text-align: left;
+  padding: 20px 5px 10px 5px;
+}
+
+.extra-part .text p {
+  font-family: "Poppins", sans-serif;
+  padding-left: 5px;
+  color: gray;
+}
+
+.extra-part .text button {
+  margin-left: 5px;
+}
+
+.extra-part .image img {
+  width: 100%;
+  height: 477px;
+  border-radius: 5px;
+}
+
+.volunteer-part {
+  height: 70vh;
+  background-image: url(./images/charity.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 150px;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.volunteer-part .round {
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  margin: 30px auto;
+  border: 2px solid tomato;
+  box-shadow: 4px 6px 10px tomato;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.volunteer-part .round h3 {
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+  color: tomato;
+  text-shadow: 2px 0 5px #f2f3f5;
+}
+
+.volunteer-part h4 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 0 2px #f2f3f5;
+  padding-bottom: 10px;
+}
+
+.volunteer-part p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.updates-part {
+  margin-bottom: 150px;
+}
+
+.updates-part h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.updates-part p {
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  text-align: center;
+  font-size: 15px;
+}
+
+.updates-part .form {
+  text-align: center;
+  width: 60%;
+  margin: 40px auto;
+  padding: 70px 80px;
+  background-color: #fff4d6;
+}
+
+.updates-part .form input {
+  border: none;
+  background-color: #f2f3f5;
+  margin: 0;
+  width: 200px;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  border-radius: 5px 0 0 5px;
+  padding-left: 10px;
+}
+
+.updates-part .form label {
+  cursor: pointer;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-color: tomato;
+  padding: 12px 30px;
+  border-radius: 0 5px 5px 0;
+}
+
+.updates-part .form button {
+  display: inline-block;
+  margin: 0;
+}
+
+footer {
+  padding: 5% 15%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+footer h4 {
+  font-family: "Lobster", cursive;
+  font-size: 35px;
+  color: tomato;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+
+footer p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
 }
